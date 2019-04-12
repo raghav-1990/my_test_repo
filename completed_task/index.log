@@ -1,0 +1,17 @@
+Mon, 01 Apr 2019 12:24:49 - Using selector: SelectSelector
+Mon, 01 Apr 2019 12:25:03 - request arrived with data {'agent_id': 12, 'system_id': '25'}
+Mon, 01 Apr 2019 12:25:03 - looking for handler uuid
+Mon, 01 Apr 2019 12:25:03 - ('SELECT "t1"."id", "t1"."handler_uuid", "t1"."agent_id_id", "t1"."system_id", "t1"."version", "t1"."registered_time" FROM "handler" AS t1 WHERE ("t1"."system_id" = ?) LIMIT 1 OFFSET 0', ['25'])
+Mon, 01 Apr 2019 12:25:03 - ('INSERT INTO "agent" ("agent_id", "created_date") VALUES (?, ?)', ['12', '22-3-2019'])
+Mon, 01 Apr 2019 12:25:03 - 127.0.0.1 [01/Apr/2019:06:55:03 +0000] "POST / HTTP/1.1" 200 245 "-" "Python/3.7 aiohttp/3.5.4"
+Wed, 03 Apr 2019 11:00:39 - Using selector: SelectSelector
+Wed, 03 Apr 2019 11:10:40 - Using selector: SelectSelector
+Wed, 03 Apr 2019 11:11:04 - request arrived with data {'agent_id': 4, 'system_id': 'jkl'}
+Wed, 03 Apr 2019 11:11:04 - looking for handler uuid
+Wed, 03 Apr 2019 11:11:04 - ('SELECT "t1"."id", "t1"."handler_uuid", "t1"."agent_id_id", "t1"."system_id", "t1"."version", "t1"."registered_time" FROM "handler" AS t1 WHERE ("t1"."system_id" = ?) LIMIT 1 OFFSET 0', ['jkl'])
+Wed, 03 Apr 2019 11:11:04 - 127.0.0.1 [03/Apr/2019:05:41:04 +0000] "POST / HTTP/1.1" 200 182 "-" "Python/3.7 aiohttp/3.5.4"
+Wed, 03 Apr 2019 11:18:56 - Using selector: SelectSelector
+Wed, 03 Apr 2019 11:19:09 - request arrived with data {'agent_id': 2, 'system_id': 'def'}
+Wed, 03 Apr 2019 11:19:09 - looking for handler uuid
+Wed, 03 Apr 2019 11:19:09 - ('SELECT "t1"."id", "t1"."handler_uuid", "t1"."agent_id_id", "t1"."system_id", "t1"."version", "t1"."registered_time" FROM "handler" AS t1 WHERE ("t1"."system_id" = ?) LIMIT 1 OFFSET 0', ['def'])
+Wed, 03 Apr 2019 11:19:09 - 127.0.0.1 [03/Apr/2019:05:49:09 +0000] "POST / HTTP/1.1" 200 182 "-" "Python/3.7 aiohttp/3.5.4"
